@@ -1,0 +1,288 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.all {
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+/* typography */
+
+h1, h2, h3, h4, h5, h6, p{
+  margin-bottom: 8px;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -.01em;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -.0025em;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+#typography ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 0;
+
+}
+
+#typography li {
+  font-size: 12px;
+  padding: 0 16px 0 0;
+  display: inline;
+}
+
+#typography span {
+  font-weight: 300;
+  color: rgb(41, 41, 41)
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    transition: ease-out .2s; 
+}
+
+a:hover {
+    opacity: 80%;
+    text-decoration: underline;
+    transition: ease-out .2s; 
+}
+
+a:active {
+    opacity: 100%;
+    transition: ease-out .1s; 
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+#Section-title {
+    color: coral;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 80px 0 40px 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.sample {
+    letter-spacing: 2px;
+    padding: 0 0 0 40px;
+    margin-bottom: 136px;
+}
+
+
+
+/* color */
+#color div {
+    padding: 16px 40px;
+    margin: 0 40px 0 0;
+}
+
+div.color-1 {
+    background-color: #000213;
+    color: white;
+}
+
+div.color-2 {
+    background-color: #1f202b;
+    color: white;
+}
+
+div.color-3 {
+    background-color: #FF7F50;
+    color: black;
+}
+
+div.color-4 {
+    background-color: #FFDACC;
+    color: black;
+}
+
+/* table style */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin-bottom: 200px;
+  }
+  
+  td {
+    text-align: left;
+    color: #000;
+    padding: 8px;
+    border-bottom: 1px solid coral;
+  }
+  
+  th {
+    text-align: left;
+    color: #000;
+    padding: 8px;
+    border-bottom: 1px solid coral;
+    background-color: coral;
+    font-weight: 300;
+  }
+
+  tr:hover {
+    background-color: rgba(255, 160, 122, 0.2);
+    transition: ease-out .2s;
+  }
+
+/* nav */
+
+  nav {
+    background-color: #000;
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul {
+    line-height: 1.5;
+    top: 0px;
+    font-weight: bold;
+    margin: 0;
+    Padding: 20px;
+  }
+
+  nav li {
+    display: inline;
+    margin: 100px 24px;
+  }
+  
+  #logo {
+    font-size: 20px;
+    display: inline;
+    float: left;
+    margin-left: 40px;
+    margin-right: 100px;
+    text-align: center;
+    color: coral;
+  }
+
+
+  hr {
+    padding: 0;
+    margin: 0;
+
+  }
+
+/* button */
+
+/* button reset */
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  transition: ease-out .2s; 
+  border-radius: 26px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: ease-out .2s; 
+}
+
+button:active {
+  font-weight: 600;
+  transition: ease-out .2s; 
+}
+
+button.primary {
+  color: white;
+  background-color: coral;
+  border: 1.5px solid coral;
+}
+
+button.primary:hover {
+  background-color: #ff591c;
+  border: 1.5px solid #ff591c;
+}
+
+button.primary:active {
+  background-color: #f74200;
+  border: 1.5px solid #f74200;
+}
+
+button.secondary {
+  color: coral;
+  background-color: white;
+  border: 1.5px solid coral;
+}
+
+button.secondary:hover {
+  background-color: #ffdacc;
+}
+
+button.secondary:active {
+  background-color: #ffc8b5;
+}
+
+.sample button {
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+
+/* footer */
+
+footer {
+  padding: 40px;
+  background-color: #000;
+  text-align: center;
+  color: coral;
+}
